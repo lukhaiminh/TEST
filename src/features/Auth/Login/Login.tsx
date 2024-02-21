@@ -98,10 +98,10 @@ export default function SignIn() {
             Welcome Back
           </Typography>
           <form style={{ width: '100%' }} onSubmit={handleSubmit(onSubmit)}>
-            <Box
-              sx={{
-                padding: '30px'
-              }}
+            <Box className="LoginForm"
+              // sx={{
+              //   padding: '30px'
+              // }}
             >
               <TextField
                 margin='normal'
